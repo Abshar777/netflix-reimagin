@@ -12,4 +12,15 @@
 }
 *{
   font-family: roboto;
+  scroll-behavior: smooth;
 }
+*::-webkit-scrollbar{
+  width: 0;
+}
+.cat::-webkit-scrollbar{
+  width:0px
+}
+.cat{
+  scroll-snap-align: x mandatory;
+}
+
