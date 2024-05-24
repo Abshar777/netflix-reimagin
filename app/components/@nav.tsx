@@ -9,7 +9,7 @@ type prop={}
 const nav:React.FC = ({}:prop) => {
   const {user}=useContext(context) as User
   return (
-    <div className='w-full h-[5rem] sticky top-0 z-[999999999] overflow-hidden px-7 py-6 flex items-center justify-between '>
+    <div className='w-full h-[5rem] backdrop-blur-sm sticky top-0 z-[999999999] overflow-hidden px-7 py-6 flex items-center justify-between '>
      <div style={{filter: "drop-shadow(2px 4px 4px #00000038)"}} className="div w-[15rem] md:w-[13rem] h-[5rem] overflow-hidden ">
      <Image src={Logo} className='object-cover w-full h-full ' alt=""/>
      </div>
